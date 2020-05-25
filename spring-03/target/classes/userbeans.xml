@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--p命令空间注入，可以直接注入属性的值：property-->
+    <bean id="user" class="com.fy.pojo.User" p:name="FY" p:age="1"/>
+
+    <!--c命令空间注入，可以通过构造器注入：construct-args-->
+    <!--singleton 单例模式：Spring默认机制，只有一个实例-->
+    <!--prototype 原型模式：每次从容器中get的时候都会产生一个新对象-->
+    <bean id="user2" class="com.fy.pojo.User" c:name="FY" c:age="2" scope="prototype" />
+
+
+
+
+
+
+</beans>

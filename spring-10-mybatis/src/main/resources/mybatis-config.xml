@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--configuration核心配置文件-->
+<configuration>
+
+    <!--引入外部配置文件-->
+    <properties resource="db.properties"/>
+
+
+    <settings>
+        <!--配日志-SLF4J | LOG4J | LOG4J2 | JDK_LOGGING | COMMONS_LOGGING | STDOUT_LOGGING | NO_LOGGING-->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <!--是否开启驼峰命名自动映射，
+        即从经典数据库列名 A_COLUMN 映射到经典 Java 属性名 aColumn-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--全局性地开启或关闭所有映射器配置文件中已配置的任何缓存-->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+
+    <!--起别名-->
+    <!--方式一，实体类少的时候使用，一个个起别名-->
+    <typeAliases>
+        <typeAlias type="com.fy.pojo.User" alias="User"/>
+
+    </typeAliases>
+    <!--方式二，
+    <typeAliases>
+        <package name="com.fy.pojo.User" />
+    </typeAliases>
+    实体类多的时候使用，但这一种不能DIY，如果非要改，需要在实体类上加注解-->
+
+
+
+
+
+</configuration>

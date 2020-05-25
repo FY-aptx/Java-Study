@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+     id:bean的唯一标识符，也就相当于之前学的对象名
+     class：bean对象所对应的全限定名：包名+类名
+    -->
+    <bean id="user" class="com.fy.pojo.User">
+        <!-- collaborators and configuration for this bean go here -->
+        <!--若存在无参构造方式
+        <property name="name" value="FY"/>
+        -->
+
+        <!--有参构造方式的写法-->
+        <!--方式一：下标赋值
+        <constructor-arg index="0" value="FY"/>
+        -->
+        <!--方式二：类型赋值，用于某个参数的类型唯一时使用，适用面小，不建议使用
+        <constructor-arg type="java.lang.String" value="FY"/>
+        -->
+        <!--方式三：参数名赋值-->
+        <constructor-arg name="name" value="FY"/>
+
+    </bean>
+    <!--<constructor-arg name="name" value="FYER"/>-->
+    <bean id="userTwo" class="com.fy.pojo.UserTwo" name="user2">
+        <constructor-arg name="name" value="FYER"/>
+
+    </bean>
+
+
+
+</beans>
