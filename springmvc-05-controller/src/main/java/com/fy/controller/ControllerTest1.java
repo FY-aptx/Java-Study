@@ -13,8 +13,6 @@ public class ControllerTest1 implements Controller {
         ModelAndView mv= new ModelAndView();
         mv.addObject("msg","ControllerTest1");
         mv.setViewName("test");
-
-
         return mv;
     }
 }
