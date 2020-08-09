@@ -10,3 +10,13 @@
 
 [4.SpringMVC](https://github.com/FY-aptx/Java-Study/tree/SpringMVC-Study)
 
+[5.多线程](https://github.com/FY-aptx/Java-Study/tree/Thread)
+
+[6.反射](https://github.com/FY-aptx/Java-Study/tree/Reflection)
+
+[7.注解](https://github.com/FY-aptx/Java-Study/tree/Annotation)
+
+[8.JUC](https://github.com/FY-aptx/Java-Study/tree/JUC)
+
+
+
