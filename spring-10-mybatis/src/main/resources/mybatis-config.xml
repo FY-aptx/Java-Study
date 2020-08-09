@@ -31,8 +31,4 @@
     </typeAliases>
     实体类多的时候使用，但这一种不能DIY，如果非要改，需要在实体类上加注解-->
 
-
-
-
-
 </configuration>

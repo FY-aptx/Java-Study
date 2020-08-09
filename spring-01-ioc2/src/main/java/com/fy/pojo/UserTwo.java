@@ -3,8 +3,6 @@ package com.fy.pojo;
 public class UserTwo {
     private String name;
 
-
-
     public UserTwo(String name){
         this.name=name;
         System.out.println("User2的有参构造！");

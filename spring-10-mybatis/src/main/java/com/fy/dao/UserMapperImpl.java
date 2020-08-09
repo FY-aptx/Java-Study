@@ -16,8 +16,6 @@ public class UserMapperImpl implements UserMapper{
     public List<User> selectuser() {
         UserMapper userMapper = sqlSessionTemplate.getMapper(UserMapper.class);
         userMapper.selectuser();
-
-
         return userMapper.selectuser();
     }
 }
