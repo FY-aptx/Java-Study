@@ -2,7 +2,11 @@
 
 ## 目录
 
-MyBatis[MyBatis]: https://github.com/FY-aptx/Java-Study/tree/MyBatis-Study
-MyBatis-Plus[MyBatis-Plus]: https://github.com/FY-aptx/Java-Study/tree/MyBatis-Plus
-Spring[Spring]: https://github.com/FY-aptx/Java-Study/tree/Spring-Study
-SpringMVC[SpringMVC]: https://github.com/FY-aptx/Java-Study/tree/SpringMVC-Study
+[1.MyBatis](https://github.com/FY-aptx/Java-Study/tree/MyBatis-Study)
+
+[2.MyBatis-Plus](https://github.com/FY-aptx/Java-Study/tree/MyBatis-Plus)
+
+[3.Spring](https://github.com/FY-aptx/Java-Study/tree/Spring-Study )
+
+[4.SpringMVC](https://github.com/FY-aptx/Java-Study/tree/SpringMVC-Study)
+
